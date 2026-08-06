@@ -1,0 +1,41 @@
+.top-btn{
+
+position:fixed;
+
+right:30px;
+
+bottom:30px;
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+border:none;
+
+background:#00b7ff;
+
+color:white;
+
+font-size:20px;
+
+cursor:pointer;
+
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+animation:upDown 1.5s infinite;
+
+z-index:999;
+
+}
+
+@keyframes upDown{
+
+50%{
+
+transform:translateY(-6px);
+
+}
+
+}
